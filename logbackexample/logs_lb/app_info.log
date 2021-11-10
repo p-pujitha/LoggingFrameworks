@@ -1,0 +1,96 @@
+2021-11-10 16:34:36 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+                Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pujitha.logbackexample.LogbackexampleApplicationTests], using SpringBootContextLoader
+2021-11-10 16:34:36 [main] INFO  o.s.t.c.s.AbstractContextLoader -
+                Could not detect default resource locations for test class [com.pujitha.logbackexample.LogbackexampleApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-10 16:34:36 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils -
+                Could not detect default configuration classes for test class [com.pujitha.logbackexample.LogbackexampleApplicationTests]: LogbackexampleApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-11-10 16:34:37 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+                Found @SpringBootConfiguration com.pujitha.logbackexample.LogbackexampleApplication for test class com.pujitha.logbackexample.LogbackexampleApplicationTests
+2021-11-10 16:34:37 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+                Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-11-10 16:34:37 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper -
+                Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3de8f619, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2ab4bc72, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4e5ed836, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@eadd4fb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@740fb309, org.springframework.test.context.event.EventPublishingTestExecutionListener@7bd7d6d6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@43f02ef2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@239a307b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2a8448fa, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6f204a1a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2de56eb2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5f8e8a9d]
+2021-11-10 16:34:37 [main] INFO  c.p.l.LogbackexampleApplicationTests -
+                Starting LogbackexampleApplicationTests using Java 1.8.0_292 on PPUJITA5-M-P6UY with PID 28631 (started by ppujita5 in /Users/ppujita5/Documents/pocs/personalpocs/LoggingFrameworks/logbackexample)
+2021-11-10 16:34:37 [main] DEBUG c.p.l.LogbackexampleApplicationTests -
+                Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-10 16:34:37 [main] INFO  c.p.l.LogbackexampleApplicationTests -
+                No active profile set, falling back to default profiles: default
+2021-11-10 16:34:37 [main] DEBUG c.p.l.Component.TestComponent -
+                log a debug message -inside TestComponent1.setup() 
+2021-11-10 16:34:37 [main] INFO  c.p.l.Component.TestComponent -
+                log a info message -inside TestComponent1.setup() 
+2021-11-10 16:34:37 [main] WARN  c.p.l.Component.TestComponent -
+                log a warn message -inside TestComponent1.setup() 
+2021-11-10 16:34:37 [main] ERROR c.p.l.Component.TestComponent -
+                log an error message -inside TestComponent1.setup() 
+2021-11-10 16:34:37 [main] DEBUG c.p.l.Component.TestComponent2 -
+                log a debug message -inside TestComponent2.setup() 
+2021-11-10 16:34:37 [main] INFO  c.p.l.Component.TestComponent2 -
+                log a info message -inside TestComponent2.setup() 
+2021-11-10 16:34:37 [main] WARN  c.p.l.Component.TestComponent2 -
+                log a warn message -inside TestComponent2.setup() 
+2021-11-10 16:34:37 [main] ERROR c.p.l.Component.TestComponent2 -
+                log an error message -inside TestComponent2.setup() 
+2021-11-10 16:34:37 [main] ERROR c.p.l.Component.TestComponent3 -
+                log an error message -inside TestComponent3.setup() 
+2021-11-10 16:34:37 [main] INFO  c.p.l.LogbackexampleApplicationTests -
+                Started LogbackexampleApplicationTests in 0.701 seconds (JVM running for 1.587)
+2021-11-10 16:34:38 [SpringApplicationShutdownHook] DEBUG c.p.l.Component.TestComponent2 -
+                log a debug message -inside TestComponent2.clean() 
+2021-11-10 16:34:38 [SpringApplicationShutdownHook] INFO  c.p.l.Component.TestComponent2 -
+                log a info message -inside TestComponent2.clean() 
+2021-11-10 16:34:38 [SpringApplicationShutdownHook] WARN  c.p.l.Component.TestComponent2 -
+                log a warn message -inside TestComponent2.clean() 
+2021-11-10 16:34:38 [SpringApplicationShutdownHook] ERROR c.p.l.Component.TestComponent2 -
+                log an error message -inside TestComponent2.clean() 
+2021-11-10 16:34:38 [SpringApplicationShutdownHook] DEBUG c.p.l.Component.TestComponent -
+                log a debug message -inside TestComponent1.clean() 
+2021-11-10 16:34:38 [SpringApplicationShutdownHook] INFO  c.p.l.Component.TestComponent -
+                log a info message -inside TestComponent1.clean() 
+2021-11-10 16:34:38 [SpringApplicationShutdownHook] WARN  c.p.l.Component.TestComponent -
+                log a warn message -inside TestComponent1.clean() 
+2021-11-10 16:34:38 [SpringApplicationShutdownHook] ERROR c.p.l.Component.TestComponent -
+                log an error message -inside TestComponent1.clean() 
+2021-11-10 16:34:46 [main] INFO  c.p.l.LogbackexampleApplication -
+                Starting LogbackexampleApplication using Java 1.8.0_292 on PPUJITA5-M-P6UY with PID 28652 (/Users/ppujita5/Documents/pocs/personalpocs/LoggingFrameworks/logbackexample/target/classes started by ppujita5 in /Users/ppujita5/Documents/pocs/personalpocs/LoggingFrameworks/logbackexample)
+2021-11-10 16:34:46 [main] DEBUG c.p.l.LogbackexampleApplication -
+                Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-10 16:34:46 [main] INFO  c.p.l.LogbackexampleApplication -
+                No active profile set, falling back to default profiles: default
+2021-11-10 16:34:47 [main] DEBUG c.p.l.Component.TestComponent -
+                log a debug message -inside TestComponent1.setup() 
+2021-11-10 16:34:47 [main] INFO  c.p.l.Component.TestComponent -
+                log a info message -inside TestComponent1.setup() 
+2021-11-10 16:34:47 [main] WARN  c.p.l.Component.TestComponent -
+                log a warn message -inside TestComponent1.setup() 
+2021-11-10 16:34:47 [main] ERROR c.p.l.Component.TestComponent -
+                log an error message -inside TestComponent1.setup() 
+2021-11-10 16:34:47 [main] DEBUG c.p.l.Component.TestComponent2 -
+                log a debug message -inside TestComponent2.setup() 
+2021-11-10 16:34:47 [main] INFO  c.p.l.Component.TestComponent2 -
+                log a info message -inside TestComponent2.setup() 
+2021-11-10 16:34:47 [main] WARN  c.p.l.Component.TestComponent2 -
+                log a warn message -inside TestComponent2.setup() 
+2021-11-10 16:34:47 [main] ERROR c.p.l.Component.TestComponent2 -
+                log an error message -inside TestComponent2.setup() 
+2021-11-10 16:34:47 [main] ERROR c.p.l.Component.TestComponent3 -
+                log an error message -inside TestComponent3.setup() 
+2021-11-10 16:34:47 [main] INFO  c.p.l.LogbackexampleApplication -
+                Started LogbackexampleApplication in 0.797 seconds (JVM running for 1.289)
+2021-11-10 16:34:47 [SpringApplicationShutdownHook] DEBUG c.p.l.Component.TestComponent2 -
+                log a debug message -inside TestComponent2.clean() 
+2021-11-10 16:34:47 [SpringApplicationShutdownHook] INFO  c.p.l.Component.TestComponent2 -
+                log a info message -inside TestComponent2.clean() 
+2021-11-10 16:34:47 [SpringApplicationShutdownHook] WARN  c.p.l.Component.TestComponent2 -
+                log a warn message -inside TestComponent2.clean() 
+2021-11-10 16:34:47 [SpringApplicationShutdownHook] ERROR c.p.l.Component.TestComponent2 -
+                log an error message -inside TestComponent2.clean() 
+2021-11-10 16:34:47 [SpringApplicationShutdownHook] DEBUG c.p.l.Component.TestComponent -
+                log a debug message -inside TestComponent1.clean() 
+2021-11-10 16:34:47 [SpringApplicationShutdownHook] INFO  c.p.l.Component.TestComponent -
+                log a info message -inside TestComponent1.clean() 
+2021-11-10 16:34:47 [SpringApplicationShutdownHook] WARN  c.p.l.Component.TestComponent -
+                log a warn message -inside TestComponent1.clean() 
+2021-11-10 16:34:47 [SpringApplicationShutdownHook] ERROR c.p.l.Component.TestComponent -
+                log an error message -inside TestComponent1.clean() 

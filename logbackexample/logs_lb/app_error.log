@@ -1,0 +1,48 @@
+2021-11-10 16:34:36;Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.pujitha.logbackexample.LogbackexampleApplicationTests], using SpringBootContextLoader
+2021-11-10 16:34:36;Could not detect default resource locations for test class [com.pujitha.logbackexample.LogbackexampleApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-10 16:34:36;Could not detect default configuration classes for test class [com.pujitha.logbackexample.LogbackexampleApplicationTests]: LogbackexampleApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-11-10 16:34:37;Found @SpringBootConfiguration com.pujitha.logbackexample.LogbackexampleApplication for test class com.pujitha.logbackexample.LogbackexampleApplicationTests
+2021-11-10 16:34:37;Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-11-10 16:34:37;Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3de8f619, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2ab4bc72, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4e5ed836, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@eadd4fb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@740fb309, org.springframework.test.context.event.EventPublishingTestExecutionListener@7bd7d6d6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@43f02ef2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@239a307b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2a8448fa, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6f204a1a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2de56eb2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5f8e8a9d]
+2021-11-10 16:34:37;Starting LogbackexampleApplicationTests using Java 1.8.0_292 on PPUJITA5-M-P6UY with PID 28631 (started by ppujita5 in /Users/ppujita5/Documents/pocs/personalpocs/LoggingFrameworks/logbackexample)
+2021-11-10 16:34:37;Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-10 16:34:37;No active profile set, falling back to default profiles: default
+2021-11-10 16:34:37;log a debug message -inside TestComponent1.setup() 
+2021-11-10 16:34:37;log a info message -inside TestComponent1.setup() 
+2021-11-10 16:34:37;log a warn message -inside TestComponent1.setup() 
+2021-11-10 16:34:37;log an error message -inside TestComponent1.setup() 
+2021-11-10 16:34:37;log a debug message -inside TestComponent2.setup() 
+2021-11-10 16:34:37;log a info message -inside TestComponent2.setup() 
+2021-11-10 16:34:37;log a warn message -inside TestComponent2.setup() 
+2021-11-10 16:34:37;log an error message -inside TestComponent2.setup() 
+2021-11-10 16:34:37;log an error message -inside TestComponent3.setup() 
+2021-11-10 16:34:37;Started LogbackexampleApplicationTests in 0.701 seconds (JVM running for 1.587)
+2021-11-10 16:34:38;log a debug message -inside TestComponent2.clean() 
+2021-11-10 16:34:38;log a info message -inside TestComponent2.clean() 
+2021-11-10 16:34:38;log a warn message -inside TestComponent2.clean() 
+2021-11-10 16:34:38;log an error message -inside TestComponent2.clean() 
+2021-11-10 16:34:38;log a debug message -inside TestComponent1.clean() 
+2021-11-10 16:34:38;log a info message -inside TestComponent1.clean() 
+2021-11-10 16:34:38;log a warn message -inside TestComponent1.clean() 
+2021-11-10 16:34:38;log an error message -inside TestComponent1.clean() 
+2021-11-10 16:34:46;Starting LogbackexampleApplication using Java 1.8.0_292 on PPUJITA5-M-P6UY with PID 28652 (/Users/ppujita5/Documents/pocs/personalpocs/LoggingFrameworks/logbackexample/target/classes started by ppujita5 in /Users/ppujita5/Documents/pocs/personalpocs/LoggingFrameworks/logbackexample)
+2021-11-10 16:34:46;Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-10 16:34:46;No active profile set, falling back to default profiles: default
+2021-11-10 16:34:47;log a debug message -inside TestComponent1.setup() 
+2021-11-10 16:34:47;log a info message -inside TestComponent1.setup() 
+2021-11-10 16:34:47;log a warn message -inside TestComponent1.setup() 
+2021-11-10 16:34:47;log an error message -inside TestComponent1.setup() 
+2021-11-10 16:34:47;log a debug message -inside TestComponent2.setup() 
+2021-11-10 16:34:47;log a info message -inside TestComponent2.setup() 
+2021-11-10 16:34:47;log a warn message -inside TestComponent2.setup() 
+2021-11-10 16:34:47;log an error message -inside TestComponent2.setup() 
+2021-11-10 16:34:47;log an error message -inside TestComponent3.setup() 
+2021-11-10 16:34:47;Started LogbackexampleApplication in 0.797 seconds (JVM running for 1.289)
+2021-11-10 16:34:47;log a debug message -inside TestComponent2.clean() 
+2021-11-10 16:34:47;log a info message -inside TestComponent2.clean() 
+2021-11-10 16:34:47;log a warn message -inside TestComponent2.clean() 
+2021-11-10 16:34:47;log an error message -inside TestComponent2.clean() 
+2021-11-10 16:34:47;log a debug message -inside TestComponent1.clean() 
+2021-11-10 16:34:47;log a info message -inside TestComponent1.clean() 
+2021-11-10 16:34:47;log a warn message -inside TestComponent1.clean() 
+2021-11-10 16:34:47;log an error message -inside TestComponent1.clean() 
